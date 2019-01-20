@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.as.ankitshubham.onyx.Event" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#16dee3e4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="EVENTS"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="#00ffffff"
+        android:textColor="#1dc3d2"
+        android:textColorHighlight="#fc0101" />
+    <View
+        android:background="#16dee3e4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="20dp">
+    </ListView>
+
+</LinearLayout>

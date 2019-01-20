@@ -1,0 +1,165 @@
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/ev"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="EVENT DETAILS"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="#00ffffff"
+        android:textColor="@color/blue_btn_bg_color"
+        android:textColorHighlight="#fc0101" />
+
+        <ScrollView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="-1dp"
+
+                android:layout_height="-2dp"
+                android:layout_margin="20dp"
+                android:weightSum="1">
+
+                <View
+                    android:background="#00161731"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:textSize="30sp"
+                    android:textColor="#0bc0f3"
+                    android:gravity="center_horizontal"
+                    android:background="#000000"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="INTRODUCTION" />
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="#0bc0f3"
+                    android:gravity="fill_horizontal"
+                    android:id="@+id/intro"
+                    android:background="#000000"
+                    android:padding="10dp"
+                    android:layout_width="-1dp"
+                    android:layout_height="-2dp"
+                    android:text="" />
+                <View
+                    android:background="#00161731"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:textSize="30sp"
+                    android:textColor="#0bc0f3"
+                    android:gravity="center_horizontal"
+                    android:background="#000000"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="-2dp"
+                    android:text="RULES" />
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="#0bc0f3"
+                    android:gravity="left"
+                    android:id="@+id/des"
+                    android:background="#000000"
+                    android:padding="10dp"
+                    android:layout_width="-1dp"
+                    android:layout_height="-2dp" />
+                <View
+                    android:background="#00ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:textSize="30sp"
+                    android:textColor="#0bc0f3"
+                    android:gravity="center_horizontal"
+                    android:background="#000000"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="-2dp"
+                    android:text="FEE" />
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="#0bc0f3"
+                    android:gravity="left"
+                    android:id="@+id/rules"
+                    android:background="#000000"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="-2dp" />
+                <View
+                    android:background="#00ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:textSize="30sp"
+                    android:textColor="#0bc0f3"
+                    android:gravity="center_horizontal"
+                    android:background="#000000"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="-2dp"
+                    android:text="COORDINATORS" />
+
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="#0bc0f3"
+                    android:gravity="left"
+                    android:id="@+id/coord"
+                    android:background="#000000"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="-2dp" />
+
+                <View
+                    android:background="#00ffffff"
+                    android:layout_width="2dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:textSize="30sp"
+                    android:textColor="#0bc0f3"
+                    android:gravity="center_horizontal"
+                    android:background="#000000"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="For any other query contact" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#000000"
+                    android:id="@+id/imageButton4"
+                    android:src="@drawable/phonecall" />
+                <View
+                    android:background="#00ffffff"
+                    android:layout_width="2dp"
+                    android:layout_height="4dp" />
+
+                <TextView
+                    android:textSize="30sp"
+                    android:textColor="#0bc0f3"
+                    android:gravity="center_horizontal"
+                    android:background="#00000000"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

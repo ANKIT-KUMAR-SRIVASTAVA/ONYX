@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1009373928718",
+    "firebase_url": "https://onyx-2k17.firebaseio.com",
+    "project_id": "onyx-2k17",
+    "storage_bucket": "onyx-2k17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009373928718:android:d2b507715afa0970",
+        "android_client_info": {
+          "package_name": "com.example.ankitshubham.onyx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009373928718-9sgsgf3dbo520looemautv1n8hf31jhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWIL4vwdPjwJmQHZUFArHYdd0tJU4EdOc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009373928718:android:ec44a947ba5f7811",
+        "android_client_info": {
+          "package_name": "com.as.ankitshubham.onyx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009373928718-9sgsgf3dbo520looemautv1n8hf31jhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWIL4vwdPjwJmQHZUFArHYdd0tJU4EdOc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group_1">
+        <item
+            android:id="@+id/menu_aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/menu_event"
+            android:icon="@drawable/cup"
+            android:title="Events" />
+        <item
+            android:id="@+id/menu_schedule"
+            android:icon="@drawable/time"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/menu_register"
+            android:icon="@drawable/registration"
+            android:title="Register" />
+    </group>
+    <group android:id="@+id/menu_group_2">
+        <item
+            android:title="Meet The Team"
+            android:id="@+id/menu_team"
+            android:icon="@drawable/team"/>
+        <item
+            android:id="@+id/menu_developer"
+            android:title="Developer"
+            android:icon="@drawable/developer"/>
+    </group>
+    <group android:id="@+id/menu_group_3">
+        <item
+            android:title="Facebook"
+            android:id="@+id/menu_facebook"
+            android:icon="@drawable/facebook"/>
+        <item
+            android:id="@+id/menu_instagram"
+            android:title="Instagram"
+            android:icon="@drawable/instagram"/>
+
+    </group>
+</menu>

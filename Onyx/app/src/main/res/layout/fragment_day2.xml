@@ -1,0 +1,185 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.as.ankitshubham.onyx.DAY2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="-1dp"
+
+            android:layout_height="-2dp"
+            android:layout_margin="20dp"
+            android:weightSum="1">
+            <TextView
+                android:textSize="30sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center_horizontal"
+                android:background="#000000"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:layout_width="363dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:text="DAY 2"
+                android:layout_weight="0.49" />
+
+            <TextView
+                android:textSize="30sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center_horizontal"
+                android:background="#000000"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="TIME PARADOX" />
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center"
+                android:id="@+id/intro1"
+                android:background="#000000"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="-2dp"
+                android:text="12:00 pm-1:00 pm" />
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center"
+                android:id="@+id/intro"
+                android:background="#000000"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="-2dp"
+                android:text="seminar hall" />
+            <View
+                android:background="#00161731"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:textSize="30sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center_horizontal"
+                android:background="#000000"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="-2dp"
+                android:text="MONOLOUGE" />
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center"
+                android:id="@+id/des"
+                android:background="#000000"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:text="1:00 pm-2:00pm"
+                android:layout_height="-2dp" />
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center"
+                android:id="@+id/des1"
+                android:background="#000000"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:text="AUDITORIUM"
+                android:layout_height="-2dp"
+                />
+            <View
+                android:background="#00ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:textSize="30sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center_horizontal"
+                android:background="#000000"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="-2dp"
+                android:text="MINDSPARK" />
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center"
+                android:id="@+id/rules"
+                android:background="#000000"
+                android:padding="10dp"
+                android:text="2:00 pm-3:30 pm"
+                android:layout_width="match_parent"
+                android:layout_height="-2dp" />
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center"
+                android:id="@+id/rules1"
+                android:background="#000000"
+                android:padding="10dp"
+                android:text="SEMINAR HALL"
+                android:layout_width="match_parent"
+                android:layout_height="-2dp" />
+
+            <View
+                android:background="#00ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:textSize="30sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center_horizontal"
+                android:background="#000000"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="-2dp"
+                android:text="CLOSING CEREMONY" />
+
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center"
+                android:id="@+id/coord"
+                android:background="#000000"
+                android:padding="10dp"
+                android:text="4:00 pm-5:00 pm"
+                android:layout_width="match_parent"
+                android:layout_height="-2dp" />
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center"
+                android:id="@+id/rules12"
+                android:background="#000000"
+                android:padding="10dp"
+                android:text="AUDITORIUM"
+                android:layout_width="match_parent"
+                android:layout_height="-2dp" />
+
+
+            <View
+                android:background="#00ffffff"
+                android:layout_width="2dp"
+                android:layout_height="2dp" />
+            <TextView
+                android:textSize="20sp"
+                android:textColor="#0bc0f3"
+                android:gravity="center"
+                android:background="#00000000"
+                android:padding="10dp"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="-2dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

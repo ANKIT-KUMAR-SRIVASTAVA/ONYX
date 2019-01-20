@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="SCHEDULE"
+        android:id="@+id/a123"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="#00ffffff"
+        android:textColor="#000000"
+        android:textColorHighlight="#fc0101" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/a122"
+        android:layout_below="@+id/a123"
+        android:background="#16dee3e4" />
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/schedulepager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/a122">
+        <!-- for displaying own page title as well as adjacent page title-->
+        <android.support.v4.view.PagerTitleStrip
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pager_title_strip"
+            android:layout_gravity="top"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="#fff"
+            android:textColor="#000" />
+        <!--style="@style/hTextBoxStyle"-->
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>
